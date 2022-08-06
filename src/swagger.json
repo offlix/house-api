@@ -1,0 +1,34 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "House Api",
+    "description": "list of all api",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/license/MIT"
+    },
+    "contact": {
+      "email": "manna.suman134@gmail.com"
+    }
+  },
+  "definitions": {
+    "House": {
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+
+        "description": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
